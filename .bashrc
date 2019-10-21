@@ -118,3 +118,8 @@ fi
 
 # Enable the sexy prompt
 export PS1="\[\e[32m\][\[\e[m\] \[\e[34m\]\W\[\e[m\] \[\e[32m\]]\[\e[m\]\n> "
+
+# Enable fast commit with dumb message
+commit() {
+	git commit -m "$(fortune)"
+}
