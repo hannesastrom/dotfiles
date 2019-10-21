@@ -115,3 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Enable the sexy prompt
+export PS1="\[\e[32m\][\[\e[m\] \[\e[34m\]\W\[\e[m\] \[\e[32m\]]\[\e[m\]\n> "
