@@ -1,3 +1,3 @@
-#This is all of my dotfiles
+# This is all of my dotfiles
 
-Here be dragons...
+My OS commited suicide recently so I figured backing up my dotfiles in the future is a good idea.
