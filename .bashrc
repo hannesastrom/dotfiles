@@ -123,3 +123,8 @@ export PS1="\[\e[32m\][\[\e[m\] \[\e[34m\]\W\[\e[m\] \[\e[32m\]]\[\e[m\]\n> "
 commit() {
 	git commit -m "$(fortune)"
 }
+
+PATH=$PATH:/usr/local/java/jdk-13.0.1/bin
+export PATH
+
+export JAVA_HOME=/usr/local/java/jdk-13.0.1/
